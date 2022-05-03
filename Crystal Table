@@ -1,0 +1,21 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, weight REAL, price INTEGER, name TEXT, sold INTEGER);
+INSERT INTO store VALUES (1, 2, 5.98, "Quarts", 33);
+INSERT INTO store VALUES (2, 2, 7.98, "Tigers eye", 15);
+INSERT INTO store VALUES (3, 2, 10.00, "Rose quarts", 20);
+INSERT INTO store VALUES (4, 2, 7.00, "Amethyst", 50);
+INSERT INTO store VALUES (5, 2, 10.00, "Turquoise", 50);
+INSERT INTO store VALUES (6, 2, 5.00, "Obsidian", 50);
+INSERT INTO store VALUES (7, 2, 15.98, "Diamond", 100);
+INSERT INTO store VALUES (8, 2, 10.00, "Garnet", 10);
+INSERT INTO store VALUES (9, 2, 10.00, "Peridot", 15);
+INSERT INTO store VALUES (10, 2, 2.98, "Sapphire", 100);
+INSERT INTO store VALUES (11, 2, 5.98, "Emerald", 20);
+INSERT INTO store VALUES (12, 2, 7.98, "Ruby", 100);
+INSERT INTO store VALUES (13, 2, 10.00, "Topaz", 50);
+INSERT INTO store VALUES (14, 2, 2.00, "Aquamarine", 10);
+INSERT INTO store VALUES (15, 2, 30.98, "Blue topaz", 50);
+
+SELECT * FROM store 
+ORDER by price;
+SELECT * FROM store 
+ORDER by sold;
